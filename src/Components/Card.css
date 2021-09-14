@@ -1,0 +1,54 @@
+.card{
+    width: 93%;
+    padding: 3% 3%;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-decoration: none;
+}
+
+.card:hover{
+    box-shadow: rgba(14, 14, 14, 0.2) 0px 8px 24px;
+}
+
+.picture{
+    /* height: 30vh; */
+    width: 100%;
+}
+
+.meta{
+    margin-top: 0;
+    margin-bottom: 0;
+    color:grey;
+}
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.read-more{
+    color:  #ba30e4 ;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.tag-name{
+    background-color: #860cac;
+    color: white;
+    padding: 2.5%;
+    border-radius: 5px;
+    border:none;
+    margin-right: 4%;
+}
+
+.tags{
+    margin-top: 5%;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link h3{
+    color: black;
+}

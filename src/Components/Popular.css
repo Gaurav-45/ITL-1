@@ -1,0 +1,38 @@
+.section{
+    width: 75%;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs{
+    display: grid;
+    grid-gap:25px;
+    grid-template-columns: repeat(3,minmax(0,1fr)); 
+}
+
+.more{
+    cursor: pointer;
+    color:  grey ;
+}
+
+@media only screen and (max-width:750px) and (min-width:425px){  
+    .blogs{
+        grid-template-columns: repeat(2,minmax(0,1fr)); 
+    }
+
+}
+
+
+@media only screen and (max-width:425px) {  
+    .blogs{
+        grid-template-columns: repeat(1,minmax(0,1fr)); 
+    }
+}

@@ -1,0 +1,74 @@
+.technology{
+    background: url("https://www.embitel.com/wp-content/uploads/AI-and-ML-banner-with-head.png");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.8; */
+}
+
+.sports{
+    background: url("https://e0.365dm.com/21/05/2048x1152/skysports-olympics-tokyo_5372543.jpg");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.8; */
+}
+
+.games{
+    background: url("https://cdn.searchenginejournal.com/wp-content/uploads/2019/09/4077bad7-e943-423c-a9f6-00ff35b9a664-1520x800.jpeg");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.8; */
+}
+
+.fitness{
+    background:url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_31/1595313/working-out-plan-te-main-200729.jpg");
+    height: 90vh;
+    background-position: 40% 40%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.8; */
+}
+
+
+.site-background{
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 9rem;
+    color: white;
+}
+
+.site-background h1{
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.btn{
+    margin-top: 3%;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 1% 3%;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: solid 2.5px white;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background: transparent;
+}

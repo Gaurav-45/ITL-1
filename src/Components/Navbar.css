@@ -1,0 +1,92 @@
+.nav{
+    background: rgb(56, 56, 56);
+    padding: 0 5rem;
+    min-height: 10vh;
+    overflow:hidden;
+}
+
+.not-visible{
+    height: 0rem;
+}
+
+.flex-row{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.nav .nav-logo {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    display: block;
+}
+
+.logo{
+    color:white;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+}
+
+.nav-items .nav-link .link{
+    color:rgb(156, 156, 156);
+}
+
+.nav-items .nav-link .link:hover{
+    color:rgb(230, 230, 230)
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1rem;
+    position: relative;
+}
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0;
+    width: 70%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.4rem 0;
+}
+.nav .toggle-collapse .toggle-icon .menu-icon{
+    font-size: 1.4rem;
+    color: rgb(156, 156, 156);
+    margin-right:2.5rem;
+}
+
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse{
+        display:initial;
+    }
+
+    .nav-items{
+        padding-left: 0rem;
+    }
+
+    .nav .toggle-collapse .toggle-icon .menu-icon{
+        margin-right: 0.5rem;
+    }
+}
